@@ -32,7 +32,10 @@ const About = () => {
         <h2 className="font-general text-sm uppercase md:text-[10px]">
           Welcome to Zentry
         </h2>
-        <AnimatedTitle />
+        <AnimatedTitle
+          title="Dis<b>c</b>over the World's <br/> l<b>a</b>rgest shared metaverse."
+          containerClass="mt-5 !text-black text-center"
+        />
 
         <div className="about-subtext">
           <p>The games of games begins, Start your adventure with Zentry.</p>
