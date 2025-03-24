@@ -39,15 +39,15 @@ const BentoTilt = ({ children, className = "" }) => {
 
 const BentoCard = ({ src, title, description }) => {
   return (
-    <div className="relativve size-full">
+    <div className="relative size-full">
       <video
         src={src}
         loop
         muted
         autoPlay
-        className="absolute left-0 top-0 object-cover object-center"
+        className="absolute left-0 top-0 object-cover object-center w-full h-full"
       />
-      <div className="relative z-10 flex size-full flex-col justify-between p-5 text-blue-50">
+      <div className="relative z-10 flex flex-col justify-between p-5 text-blue-50">
         <div>
           <h1 className="bento-title special-font">{title}</h1>
           {description && (
